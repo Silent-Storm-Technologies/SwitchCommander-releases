@@ -128,7 +128,7 @@
         <a href="#features">Features</a>
         <a href="#switches">Supported switches</a>
         <a href="#download">Download</a>
-        <a href="https://github.com/Krono5/SwitchCommander-releases/issues/new">Support</a>
+        <a href="https://github.com/silent-storm-technologies/SwitchCommander-releases/issues/new">Support</a>
       </div>
     </nav>
     <div class="hero-grid">
@@ -139,7 +139,7 @@
           <span class="chip c1">Dante</span><span class="chip c2">Q-SYS</span><span class="chip c3">Shure</span><span class="chip c4">AV over IP</span>
         </div>
         <div class="cta">
-          <a class="btn primary" id="hero-download" href="https://github.com/Krono5/SwitchCommander-releases/releases/latest">Download</a>
+          <a class="btn primary" id="hero-download" href="https://github.com/silent-storm-technologies/SwitchCommander-releases/releases/latest">Download</a>
           <a class="btn ghost" href="#features">See what it does</a>
         </div>
         <div class="version" id="version">Windows, macOS and Linux</div>
@@ -229,33 +229,33 @@
           <h3>Windows</h3>
           <p>Windows 10 or 11.</p>
           <p>If SmartScreen says <i>Windows protected your PC</i>, click <b>More info</b>, then <b>Run anyway</b>.</p>
-          <div class="dl"><a class="btn" data-os="windows" href="https://github.com/Krono5/SwitchCommander-releases/releases/latest">Download for Windows</a></div>
+          <div class="dl"><a class="btn" data-os="windows" href="https://github.com/silent-storm-technologies/SwitchCommander-releases/releases/latest">Download for Windows</a></div>
         </div>
         <div class="card">
           <h3>Mac</h3>
           <p>Apple silicon and Intel, in one download.</p>
           <p>Drag it to Applications. If macOS won't open it, go to <b>System Settings › Privacy &amp; Security</b> and click <b>Open Anyway</b>. If it says the app is damaged, run this in Terminal:</p>
           <pre>xattr -dr com.apple.quarantine /Applications/SwitchCommander.app</pre>
-          <div class="dl"><a class="btn" data-os="mac" href="https://github.com/Krono5/SwitchCommander-releases/releases/latest">Download for Mac</a></div>
+          <div class="dl"><a class="btn" data-os="mac" href="https://github.com/silent-storm-technologies/SwitchCommander-releases/releases/latest">Download for Mac</a></div>
         </div>
         <div class="card">
           <h3>Linux</h3>
           <p>.deb for Ubuntu and Debian, .rpm for Fedora, or an AppImage for anything else.</p>
           <p>For the USB console port, run once and log back in:</p>
           <pre>sudo usermod -aG dialout $USER</pre>
-          <div class="dl"><a class="btn" data-os="linux" href="https://github.com/Krono5/SwitchCommander-releases/releases/latest">Download for Linux</a></div>
+          <div class="dl"><a class="btn" data-os="linux" href="https://github.com/silent-storm-technologies/SwitchCommander-releases/releases/latest">Download for Linux</a></div>
         </div>
       </div>
-      <p class="note">Moving to a new laptop? Use <b>Help › Move to another computer</b> on the old one, then enter your key on the new one. All files are on the <a href="https://github.com/Krono5/SwitchCommander-releases/releases/latest">release page</a>.</p>
+      <p class="note">Moving to a new laptop? Use <b>Help › Move to another computer</b> on the old one, then enter your key on the new one. All files are on the <a href="https://github.com/silent-storm-technologies/SwitchCommander-releases/releases/latest">release page</a>.</p>
     </div>
   </section>
 </main>
 
 <footer>
   <div class="wrap">
-    <a href="https://github.com/Krono5/SwitchCommander-releases/issues/new">Report a problem or request a feature</a>
+    <a href="https://github.com/silent-storm-technologies/SwitchCommander-releases/issues/new">Report a problem or request a feature</a>
     &nbsp;·&nbsp;
-    <a href="https://github.com/Krono5/SwitchCommander-releases/releases">All releases</a>
+    <a href="https://github.com/silent-storm-technologies/SwitchCommander-releases/releases">All releases</a>
     <p>Copyright © 2026 Tyler Storr. All rights reserved.</p>
   </div>
 </footer>
@@ -278,7 +278,7 @@
       hero.textContent = "Download for " + labels[os];
       document.getElementById("other-os").hidden = false;
     }
-    fetch("https://api.github.com/repos/Krono5/SwitchCommander-releases/releases/latest")
+    fetch("https://api.github.com/repos/silent-storm-technologies/SwitchCommander-releases/releases/latest")
       .then(function (r) { return r.ok ? r.json() : Promise.reject(); })
       .then(function (rel) {
         function urlFor(key) {

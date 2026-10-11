@@ -3,14 +3,14 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Krono5/SwitchCommander-releases/releases/latest"><img alt="Latest version" src="https://img.shields.io/github/v/release/Krono5/SwitchCommander-releases?label=latest%20version&style=for-the-badge&color=1f6feb"></a>
+  <a href="https://github.com/silent-storm-technologies/SwitchCommander-releases/releases/latest"><img alt="Latest version" src="https://img.shields.io/github/v/release/silent-storm-technologies/SwitchCommander-releases?label=latest%20version&style=for-the-badge&color=1f6feb"></a>
   <img alt="Windows, macOS and Linux" src="https://img.shields.io/badge/Windows%20%7C%20macOS%20%7C%20Linux-2e7d32?style=for-the-badge">
 </p>
 
 <p align="center">
-  <a href="https://github.com/Krono5/SwitchCommander-releases/releases/latest"><b>Download the latest version</b></a>
+  <a href="https://github.com/silent-storm-technologies/SwitchCommander-releases/releases/latest"><b>Download the latest version</b></a>
   &nbsp;·&nbsp;
-  <a href="https://krono5.github.io/SwitchCommander-releases/">Website</a>
+  <a href="https://silent-storm-technologies.github.io/SwitchCommander-releases/">Website</a>
   &nbsp;·&nbsp;
   <a href="#install">Install</a>
   &nbsp;·&nbsp;
@@ -95,7 +95,7 @@ SwitchCommander can't manage them.
 
 ## Install
 
-Open the **[latest release](https://github.com/Krono5/SwitchCommander-releases/releases/latest)**
+Open the **[latest release](https://github.com/silent-storm-technologies/SwitchCommander-releases/releases/latest)**
 and download the file for your computer from its **Assets** list:
 
 | Your computer | Download |
@@ -153,7 +153,7 @@ you purchase.
 
 ## Support
 
-Found a bug or want a feature? **[Open an issue](https://github.com/Krono5/SwitchCommander-releases/issues/new)**.
+Found a bug or want a feature? **[Open an issue](https://github.com/silent-storm-technologies/SwitchCommander-releases/issues/new)**.
 Please include your switch model and, if something failed, the text from the terminal pane at the
 bottom of the app.
 
